@@ -1,0 +1,41 @@
+{
+  "57f36ac9-5bec-4799-928d-09d6565c46ad": {
+    "appActions": [
+      "providers/PowerPlatform.Governance/Operations/Read",
+      "providers/PowerPlatform.Governance/Operations/Write",
+      "providers/PowerPlatform.Governance/Operations/Delete"
+    ],
+    "connectionRef": {
+      "apiTier": "Premium",
+      "authenticationType": "sqlAuthentication",
+      "displayName": "SQL Server",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1683/1.0.1683.3685/sql/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sql",
+      "parameterHints": {},
+      "parameterHintsV2": {},
+      "sharedConnectionId": "/providers/microsoft.powerapps/apis/shared_sql/connections/shared-sql-36b7b897-2f34-401e-ac24-3a03340acccd"
+    },
+    "datasets": {
+      "productsuwu.database.windows.net,products": {
+        "dataSources": {
+          "[dbo].[UserEmail]": {
+            "tableName": "[dbo].[UserEmail]"
+          },
+          "Category": {
+            "tableName": "[dbo].[Category]"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "[dbo].[UserEmail]",
+      "Category"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "endpoints": [
+      "productsuwu.database.windows.net,products"
+    ],
+    "id": "57f36ac9-5bec-4799-928d-09d6565c46ad"
+  }
+}
